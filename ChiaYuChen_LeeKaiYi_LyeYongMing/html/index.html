@@ -1,0 +1,97 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Rice Bowl</title>
+        <link rel="stylesheet" type="text/css" href="/assignment.css">
+        <link rel="stylesheet" type="text/css" href="/index.css">
+        
+</head>
+<body  id="background">
+    <!--Navigation-->
+    <nav class="topnav">     
+        <!--Logo-->
+        <a href="index.html" style="margin: 0 0 0 0; padding: 0 0 0 0 ;height: 48px;width: 85px;">
+        <img src="/img/assignment_logo.jpg" style="height: 50px; width: 85px;" alt="Logo"></a>
+        <!--Menu-->
+        <a href="product.html">Product</a>
+        <a href="event.html">Event</a>
+        <a href="about_us.html">About us</a>
+        <!--Search Bar-->
+        <label for="search" style="font-size:30px;color:aliceblue;"></label>
+        <input type="text" id="search" name="Name" placeholder="Search.." style="width:16em;">
+        <a href="cart.html">Cart</a>
+        <audio class="songposition" controls autoplay loop muted>
+            <source src="/Media/Breakfast_in_Paris.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+    </nav>
+    <header>
+        <!--Animation-->
+        <img class="change_page_left" src="/img/door_left.jpg" alt="left door" style="position: absolute;z-index: 2;height: 100%;width: 50%;margin-left: 0%;">
+        <img class="change_page_right" src="/img/door_right.jpg" alt="right door" style="position: absolute;z-index: 2;height: 100%;width: 50%;margin-left: 50%;">
+        <img class="animation_background" src="/img/animation_background.jpg" alt="background_image" style="position: absolute;height:100%;width: 100%; z-index: 1;top: 0;left: 0;">
+        <div class="page_title">
+            <h1>Rice Bowl</h1>
+            <img src="/img/assignment_logo.jpg" alt="Logo">
+        </div>
+    </header>
+    <main>
+        <div style="width: 100%;height: 24em;">
+        <iframe class="videoposition" src="https://youtube.com/embed/d8MYtxlXF0w" 
+        title="Restaurant Showcase" allow="accelerometer; autoplay; clipboard-write; " allowfullscreen>
+        </iframe>
+        </div>
+
+        <div style="width: 60%;text-align: center;margin-left:20%;margin-right:20%;font-weight: bold;">
+        <h1>Welcome to Rice Bowl</h1>
+        
+        <p>Where we offer a unique dining experience that combines traditional Chinese cuisine with modern flavors. 
+            Our menu features a wide variety of dishes that are sure to satisfy any appetite, from classic favorites 
+            like Kung Pao Chicken and Peking Duck to more adventurous options like Szechuan Boiled Fish and Mapo Tofu.</p><br>
+        <p>Our chefs use only the freshest ingredients and authentic Chinese cooking techniques to create dishes that are bursting
+            with flavor and aroma.</p><br>
+        <p>In addition to our delicious food, we also offer a warm and inviting atmosphere that is perfect for any occasion, 
+            whether you're looking for a romantic dinner for two or a family gathering. 
+            Our friendly staff is always on hand to provide excellent service and ensure that your dining experience is nothing 
+            short of exceptional.</p><br>
+        <p>We invite you to come and experience the best of Chinese cuisine at our restaurant.</p>
+          
+        </div>
+
+        <div style="margin-left:14%;margin-right:10%">
+            <h1 style="text-align:center;">Location</h1>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3983.6953193224367!2d101.68919307483496!3d3.174671496800634!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zM8KwMTAnMjguOCJOIDEwMcKwNDEnMzAuNCJF!5e0!3m2!1sen!2smy!4v1681636459689!5m2!1sen!2smy" 
+            width="1000" height="450" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
+
+        <div class="reservation">
+        <h1 style="font-weight:bold;color:gold;text-align: center;">Reservation</h1>
+        <form>
+            <label for="name"></label>
+            <input type="text" id="name" name="name" placeholder="Name"><br>
+          
+            <label for="guests"></label>
+            <input type="number" id="guests" name="guests" placeholder="Number of Guests"><br>
+          
+            <label for="phone"></label>
+            <input type="tel" id="phone" name="phone" placeholder="Phone number"><br>
+
+            <label for="date"></label>
+            <input type="date" id="date" name="date"><br>
+          
+            <label for="time"></label>
+            <input type="time" id="time" name="time"><br>
+          
+            <input type="submit" value="Submit" style="margin-left:26em;">
+        </form>
+        
+        </div>
+    
+    </main>
+    <footer>
+        <p>&copy; 2023 Rice Bowl. All rights reserved.</p>
+    </footer>
+</body>
+</html>

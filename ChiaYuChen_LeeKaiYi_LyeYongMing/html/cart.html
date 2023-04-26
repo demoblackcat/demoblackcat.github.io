@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cart</title>
+        <link rel="stylesheet" type="text/css" href="/assignment.css">
+        <link rel="stylesheet" type="text/css" href="/cart.css">
+        
+</head>
+<body>
+    <!--Navigation-->
+    <nav class="topnav">
+      <!--logo-->
+      <a href="index.html" style="margin: 0 0 0 0; padding: 0 0 0 0 ;height: 48px;width: 85px;">
+      <img src="/img/assignment_logo.jpg" style="height: 50px; width: 85px;" alt="Logo"></a>
+      <!--menu-->
+      <a href="product.html">Product</a>
+      <a href="event.html">Event</a>
+      <a href="about_us.html">About us</a>
+      <!--SearchBar-->
+      <label for="search" style="font-size:30px;color:aliceblue;"></label>
+      <input type="text" id="search" name="Name" placeholder="Search.." style="width:16em;">
+      <a class="active" href="cart.html">Cart</a>
+    </nav>
+    <header>
+      <!--Animation-->
+      <img class="change_page_left" src="/img/door_left.jpg" alt="left door" style="position: absolute;z-index: 2;height: 100%;width: 50%;margin-left: 0%;">
+      <img class="change_page_right" src="/img/door_right.jpg" alt="right door" style="position: absolute;z-index: 2;height: 100%;width: 50%;margin-left: 50%;">
+      <img class="animation_background" src="/img/animation_background.jpg" alt="background_image" style="position: absolute;height:100%;width: 100%; z-index: 1;top: 0;left: 0;">
+      <div class="page_title">
+        <h1>Cart</h1>
+      </div>
+    </header>
+      
+    <main>
+      <div class="content">
+          <table>
+              <thead>
+                <tr>
+                  <th class="product-1stcolumn">Rice Dishes</th>
+                  <th class="product-1stcolumn">Description</th>
+                  <th class="product-1stcolumn">Price</th>
+                  <th class="product-1stcolumn">Quantity</th>
+                  <th style="font-weight:bold;font-size:30px;width:300px">Remark</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>
+                    <img src="/img/YangZhou_fried_rice.jpg" alt="YangZhou Fried Rice"  style="float:left;width:200px;height:100px;">
+                  YangZhou Fried Rice
+                  </td>
+                  <td class="product-description">
+                    It is typically made by stir-frying cooked rice with a variety of ingredients such as ham, shrimp, eggs, and peas, along with seasonings.
+                  </td>
+                  <td class="product-price">RM10.00</td>
+                  <td>
+                    <input type="number" min="0" value="0">
+                  </td>
+                  <td>  
+                    <label style="color:aliceblue;"></label>
+                    <input type="text" class="remark" name="remark" placeholder="">
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <img src="/img/KungPaoChickenRice.jpg" alt="KungPaoChickenRice"  style="float:left;width:200px;height:100px;">
+                  KungPao Chicken Rice
+                  </td>
+                  <td class="product-description">A classic Sichuan dish made with tender diced chicken, peanuts, and dried chili peppers.</td>
+                  <td class="product-price">RM15.00</td>
+                  <td>
+                    <input type="number" min="0" value="0">
+                  </td>
+                  <td>  
+                    <label style="color:aliceblue;"></label>
+                    <input type="text" class="remark" name="remark" placeholder="">
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <img src="/img/General_Tso_s_Chicken_with_rice.jpg" alt="General Tso's Chicken with rice"  style="float:left;width:200px;height:100px;">
+                  General Tso's Chicken with rice
+                  </td>
+                  <td class="product-description">A classic dish made of crispy chicken tossed in a sweet and savory sauce with soy sauce, vinegar, sugar, and chili peppers.</td>
+                  <td class="product-price">RM15.00</td>
+                  <td>
+                    <input type="number" min="0" value="0">
+                  </td>
+                  <td>  
+                    <label style="color:aliceblue;"></label>
+                    <input type="text" class="remark" name="remark" placeholder="">
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <br>
+            <table>
+              <thead>
+                <tr>
+                  <th class="product-1stcolumn">Main Dishes</th>
+                  <th class="product-1stcolumn">Description</th>
+                  <th class="product-1stcolumn">Price</th>
+                  <th class="product-1stcolumn">Quantity</th>
+                  <th style="font-weight:bold;font-size:30px;width:300px">Remark</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>
+                    <img src="/img/sesame_chicken.jpg" alt="Sesame Chicken"  style="float:left;width:200px;height:100px;">
+                  Sesame Chicken
+                  </td>
+                  <td class="product-description">
+                    It is made of fried chicken pieces coated in a thick sauce made of honey, garlic, ketchup, brown sugar, rice vinegar and sesame oil. 
+                  </td>
+                  <td class="product-price">RM20.00</td>
+                  <td>
+                    <input type="number" min="0" value="0">
+                  </td>
+                  <td>  
+                    <label style="color:aliceblue;"></label>
+                    <input type="text" class="remark" name="remark" placeholder="">
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <img src="/img/SiChuanBoiledFish.jpg" alt="SiChuan Boiled Fish"  style="float:left;width:200px;height:100px;">
+                  SiChuan Boiled Fish
+                  </td>
+                  <td class="product-description">
+                    A spicy and flavorful Sichuan-style fish dish made by boiling tender fish fillets in a broth of chili oil, Sichuan peppercorns, garlic, ginger, and other seasonings. 
+                  </td>
+                  <td class="product-price">RM35.00</td>
+                  <td>
+                    <input type="number" min="0" value="0">
+                  </td>
+                  <td>  
+                    <label style="color:aliceblue;"></label>
+                    <input type="text" class="remark" name="remark" placeholder="">
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <img src="/img/PekingDuck.jpg" alt="Peking Duck"  style="float:left;width:200px;height:100px;">
+                  Peking Duck
+                  </td>
+                  <td class="product-description">Sliced pieces of roast duck with crispy skin and tender meat.</td>
+                  <td class="product-price">RM30.00</td>
+                  <td>
+                    <input type="number" min="0" value="0">
+                  </td>
+                  <td>  
+                    <label style="color:aliceblue;"></label>
+                    <input type="text" class="remark" name="remark" placeholder="">
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <img src="/img/sweetandsourPork.jpg" alt="Sweet and Sour Pork"  style="float:left;width:200px;height:100px;">
+                  Sweet and Sour Pork
+                  </td>
+                  <td class="product-description">Crispy pork pieces with sweet and sour sauce.</td>
+                  <td class="product-price">RM20.00</td>
+                  <td>
+                    <input type="number" min="0" value="0">
+                  </td>
+                  <td>  
+                    <label style="color:aliceblue;"></label>
+                    <input type="text" class="remark" name="remark" placeholder="">
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <img src="/img/MapoTofu.jpg" alt="Mapo Tofu"  style="float:left;width:200px;height:100px;">
+                  Mapo Tofu
+                  </td>
+                  <td class="product-description">
+                    Mapo tofu is a popular Chinese dish from Sichuan province. It consists of tofu set in a spicy sauce, typically a thin, oily, and bright red suspension, based on douban, and douchi, along with minced meat, traditionally beef. 
+                  </td>
+                  <td class="product-price">RM15.00</td>
+                  <td>
+                    <input type="number" min="0" value="0">
+                  </td>
+                  <td>  
+                    <label style="color:aliceblue;"></label>
+                    <input type="text" class="remark" name="remark" placeholder="">
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <img src="/img/WhiteRice.jpg" alt="White rice" style="float:left;width:200px;height:100px;">
+                  White Rice
+                  </td>
+                  <td class="product-description">
+                    Plain White Rice
+                  </td>
+                  <td class="product-price">RM1.00</td>
+                  <td>
+                    <input type="number" min="0" value="0">
+                  </td>
+                  <td>
+                    <label style="color:aliceblue;"></label>
+                    <input type="text" class="remark" name="remark" placeholder="">
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <br>
+            <table>
+              <thead>
+                <tr>
+                  <th class="product-1stcolumn">Appetizer</th>
+                  <th class="product-1stcolumn">Description</th>
+                  <th class="product-1stcolumn">Price</th>
+                  <th class="product-1stcolumn">Quantity</th>
+                  <th style="font-weight:bold;font-size:30px;width:300px;">Remark</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>
+                    <img src="/img/SpringRoll.jpg" alt="Spring Roll"  style="float:left;width:200px;height:100px;">
+                  Spring Roll
+                  </td>
+                  <td class="product-description">Deep-fried crispy rolls filled with vegetables and meat.</td>
+                  <td class="product-price">RM8.00</td>
+                  <td>
+                    <input type="number" min="0" value="0">
+                    <td>  
+                      <label style="color:aliceblue;"></label>
+                      <input type="text" class="remark" name="remark" placeholder="">
+                    </td>
+                </tr>
+                <tr>
+                  <td>
+                    <img src="/img/Dumplings.jpg" alt="Dumplings"  style="float:left;width:200px;height:100px;">
+                  Dumplings
+                  </td>
+                  <td class="product-description">Soft and delicate steamed dumplings filled with juicy pork and vegetables.</td>
+                  <td class="product-price">RM6.00</td>
+                  <td>
+                    <input type="number" min="0" value="0">
+                  </td>
+                  <td>  
+                    <label style="color:aliceblue;"></label>
+                    <input type="text" class="remark" name="remark" placeholder="">
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <img src="/img/HoneyGarlicChickenWings.jpg" alt="Honey Garlic Chicken Wings"  style="float:left;width:200px;height:100px;">
+                  Honey Garlic Chicken Wings
+                  </td>
+                  <td class="product-description">These crispy wings are coated in a sticky and flavorful honey garlic sauce, making them an irresistible appetizer or main dish.</td>
+                  <td class="product-price">RM10.00</td>
+                  <td>
+                    <input type="number" min="0" value="0">
+                  </td>
+                  <td>  
+                    <label style="color:aliceblue;"></label>
+                    <input type="text" class="remark" name="remark" placeholder="">
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <img src="/img/Hunan_Shrimp.jpg" alt="Hunan Shrimp"  style="float:left;width:200px;height:100px;">
+                    Hunan Shrimp
+                  </td>
+                  <td class="product-description">Spicy shrimp stir-fry with vegetables and chili peppers.</td>
+                  <td class="product-price">RM19.00</td>
+                  <td>
+                    <input type="number" min="0" value="0">
+                  </td>
+                  <td>  
+                    <label style="color:aliceblue;"></label>
+                    <input type="text" class="remark" name="remark" placeholder="">
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <br>
+            <table>
+              <thead>
+                <tr>
+                  <th class="product-1stcolumn">Beverages</th>
+                  <th class="product-1stcolumn">Price</th>
+                  <th class="product-1stcolumn">Quantity</th>
+                  <th style="font-weight: bold;font-size:30px;width:300px;">Remark</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>
+                    <img src="/img/watermelon.jpg" alt="Watermelon Juice"  style="float:left;width:200px;height:100px;">
+                  Watermelon Juice
+                  </td>
+                  <td class="product-price">RM7.00</td>
+                  <td>
+                    <input type="number" min="0" value="0">
+                    <td>  
+                      <label style="color:aliceblue;"></label>
+                      <input type="text" class="remark" name="remark" placeholder="">
+                    
+                      
+                      <select class="beverage" name="beverage">
+                        <option value="cold">Cold</option>
+                        <option value="hot">Warm</option>
+                      </select>
+                    </td>
+                </tr>
+                <tr>
+                  <td>
+                    <img src="/img/HoneyLemon.jpg" alt="HoneyLemon"  style="float:left;width:200px;height:100px;">
+                  Honey Lemon
+                  </td>
+                  <td class="product-price">RM5.00</td>
+                  <td>
+                    <input type="number" min="0" value="0">
+                  </td>
+                  <td>  
+                    <label style="color:aliceblue;"></label>
+                    <input type="text" class="remark" name="remark" placeholder="">
+                    
+                    
+                      <select class="beverage" name="beverage">
+                        <option value="cold">Cold</option>
+                        <option value="hot">Hot</option>
+                      </select>
+                  </td>
+                
+                </tr>
+                <tr>
+                  <td>
+                    <img src="/img/softdrinks.jpg" alt="Soft drinks"  style="float:left;width:200px;height:100px;">
+                  Soft drinks
+                  </td>
+                  <td class="product-price">RM4.50</td>
+                  <td>
+                    <input type="number" min="0" value="0">
+                  </td>
+                  <td>  
+                    <label style="color:aliceblue;"></label>
+                    <input type="text" class="remark" name="remark" placeholder="">
+  
+                    
+                      <select class="beverage" name="beverage">
+                        <option value="cold">Cold</option>
+                        <option value="hot">Warm</option>
+                      </select>
+  
+                    <label for="softdrinks"></label>
+                      <select id="softdrinks" name="softdrinks">
+                        <option value="Fanta">Fanta</option>
+                        <option value="Coca-Cola">Coca-Cola</option>
+                        <option value="Sprite">Sprite</option>
+                      </select>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td>
+                    <img src="/img/MilkShakes.jpg" alt="Soft drinks"  style="float:left;width:200px;height:100px;">
+                  Milk Shakes
+                  </td>
+                  <td class="product-price">RM7.00</td>
+                  <td>
+                    <input type="number" min="0" value="0">
+                  </td>
+                  <td>  
+                    <label style="color:aliceblue;"></label>
+                    <input type="text" class="remark" name="remark" placeholder="">
+  
+                    
+                      <select class="beverage" name="beverage">
+                        <option value="cold">Cold</option>
+                        <option value="hot">Warm</option>
+                      </select>
+  
+                    <label for="milkShakes"></label>
+                      <select id="milkShakes" name="milkShakes">
+                        <option value="Banana Caramel">Banana Caramel</option>
+                        <option value="Mint Chocolate Chip">Mint Chocolate Chip</option>
+                        <option value="Chocolate Peanut Butter">Chocolate Peanut Butter</option>
+                        <option value="Strawberry Cheese Cake">Strawberry Cheese Cake</option>
+                        <option value="Chocolate Oreo">Chocolate Oreo</option>
+                      </select>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+           
+            <form action="/html/checkout.html" method="get" target="_blank">
+              <button type="submit">Check Out</button>
+           </form>
+  
+        </div>
+      </main>
+
+    <footer><p>&copy; 2023 Rice Bowl. All rights reserved.</p></footer>
+
+  </body>

@@ -1,0 +1,80 @@
+/*EventPage's UI*/
+
+.clearfix::after {
+    content:"";
+    clear: both;
+    display: table;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.page_title{
+    /*
+    margin-top: 3em;
+    margin-left: 2em;
+    margin-right: 2em;
+    */
+    text-align: center;
+    font-weight: bold;
+    font-size: 2em;
+    color: rgba(148, 194, 255, 0.925) ;
+    text-shadow: 7px 5px 7px rgb(25, 56, 192);
+    font-style: italic;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    padding-top: 0em;
+    padding-left:8em;
+    padding-right:8em;
+    background-color: aliceblue;
+}
+
+h2 {
+    font-size: 2.5em;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 50px;
+    text-align: center;
+    color:lightskyblue;
+}
+
+.promotion-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.promotion-box {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    flex-basis: calc(33.33% - 20px);
+}
+
+.promotion-box h3 {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-top: 0;
+}
+
+.promotion-box p {
+    font-size: 1em;
+    margin: 10px 0;
+    line-height: 1.2;
+    color: #777;
+}
+
+.promotion-box .price {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #E74C3C;
+    margin-top: 20px;
+}

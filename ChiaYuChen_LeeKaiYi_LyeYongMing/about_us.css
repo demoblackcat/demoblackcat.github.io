@@ -1,0 +1,56 @@
+/*AboutUsPage's UI*/
+
+#background {
+    background-color: rgb(218, 21, 80);
+}
+/*Title*/
+.page_title{
+    /*
+    margin-top: 3em;
+    margin-left: 2em;
+    margin-right: 2em;
+    */
+    text-align: center;
+    font-weight: bold;
+    font-size: 2em;
+    color: rgba(243, 196, 204, 0.781) ;
+    text-shadow: 5px 5px 5px rgb(192, 25, 136);
+    font-style: italic;
+}
+.title{
+    color: gold;
+    background-color: rgba(201, 6, 6,0.85);
+    height: 3em;
+    min-width: 75em;
+}
+/*Product bar*/
+.bar {
+    color: rgb(255, 251, 0);
+    background-color: rgba(219, 44, 44,0.6);
+    min-height: 285px;
+    min-width: 75em;
+}
+
+.bar_content {
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 5px;
+    text-align: justify;
+    font-size:16px;
+    min-width: 50em;
+}
+
+/*Each product style, already set the size of it*/
+.product{
+    float: left;
+    padding-right: 10px;
+    min-height: 18em;
+    max-width: 500px;
+}
+
+.clearfix::after {
+    content:"";
+    clear: both;
+    display: table;
+}

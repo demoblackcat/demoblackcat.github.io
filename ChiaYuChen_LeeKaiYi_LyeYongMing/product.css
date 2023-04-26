@@ -1,0 +1,80 @@
+/*ProductPage's UI*/
+
+#background {
+    background-color: rgb(218, 21, 80);
+}
+/*Title*/
+.page_title{
+    /*
+    margin-top: 3em;
+    margin-left: 2em;
+    margin-right: 2em;
+    */
+    text-align: center;
+    font-weight: bold;
+    font-size: 2em;
+    color: rgba(248, 1, 42, 0.877) ;
+    text-shadow: 5px 5px 7px rgb(168, 31, 31);
+    font-style: italic;
+}
+.title{
+    color: gold;
+    background-color: rgb(201, 6, 6);
+    height: 3em;
+    min-width: 63em;
+}
+/*Product bar*/
+.bar {
+    color: rgb(255, 251, 0);
+    background-color: rgb(201, 6, 6);
+    height: 18em;
+    /*fixed the product bar (zoom page will not affect the place of content)*/
+    min-width: 63em;
+    min-height: 18em;
+}
+
+h2{
+    text-align: center;
+}
+
+/*Each product style, already set the size of it*/
+.product{
+    margin-top: 3em;
+    margin-left: 3em;
+    width: 36em;
+    height: 15em;
+    background-color: white;
+    padding-left: 1em;
+    padding-right: 1.5em;
+    padding-top: 1.5em;
+    padding-bottom: 0.5em;
+    float:left;
+    flex-basis: 30%;
+}
+
+.product:hover{
+    background-color:whitesmoke;
+}
+
+
+.desc{
+    color:blue;
+    font-size:1em;
+}
+
+
+.price{
+    color: red;
+    font-weight: bold; 
+}
+
+.clearfix::after{
+    content:"";
+    clear:both;
+    display:table;
+}
+
+
+
+/*<img src="/img/assignment_logo.jpg" alt="Logo" 
+                style="width:33px;height:auto;float:left;">*/

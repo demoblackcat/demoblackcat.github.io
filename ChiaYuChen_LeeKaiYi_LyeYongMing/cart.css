@@ -1,0 +1,86 @@
+/*Title*/
+.page_title{
+  /*
+  margin-top: 3em;
+  margin-left: 2em;
+  margin-right: 2em;
+  */
+  text-align: center;
+  font-weight: bold;
+  font-size: 2em;
+  color: rgba(155, 236, 130, 0.849) ;
+  text-shadow: 7px 5px 7px rgba(7, 77, 38, 0.863);
+  font-style: italic;
+}
+
+.content{
+    margin-top: 3.5em;
+}
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin:auto;
+  }
+th, td {
+    padding: 8px;
+    text-align: left;
+    border: 2px solid black;
+  }
+th {
+    background-color: #f2f2f2;
+  }
+th:first-child{
+  width:200px;
+}
+
+img {
+    display: block;
+    margin: auto;
+    max-width: 100%;
+  }
+.product-1stcolumn{
+  font-weight:bold;
+  font-size:30px;
+}
+.product-description{
+  font-size:20px;
+}
+.product-price{
+  font-size:20px;
+}
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float:right;
+    margin-top: 0.5em;
+    margin-right:10.1em;
+  }
+button:hover {
+    background-color: #3e8e41;
+  }
+.remark{
+  width:95%;
+  height: 100px;
+}
+.beverage{
+  margin-top:0.625em;
+}
+#softdrinks{
+  margin-top:0.625em;
+}
+
+#milkShakes{
+  margin-top:0.625em;
+}
+
+
+.clearfix::after {
+  content:"";
+  clear: both;
+  display: table;
+}
